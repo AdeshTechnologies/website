@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Adesh Technologies",
-  description: "Best deals for all your electronics",
+  description: "Get the best deals for all your electronics",
 };
 
 export default function RootLayout({
