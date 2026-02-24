@@ -1,0 +1,65 @@
+.primaryNavBar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.primaryNavBarLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.dropdownContent {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  top: 102%;
+
+  background: white;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+
+  z-index: 999; /* important */
+
+  padding: 20px 8px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.dropdownContentLinks {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dropdown:hover .dropdownContent {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown:hover .dropdownTrigger {
+  padding-bottom: 24px;
+  border-bottom: 2px solid darkblue;
+}
+
+.navPrimaryUserMenu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
