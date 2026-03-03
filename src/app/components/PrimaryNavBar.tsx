@@ -5,11 +5,15 @@ import { BiHeart, BiSearch, BiShoppingBag, BiUser } from "react-icons/bi";
 import styles from "./PrimaryNavBar.module.css";
 
 import { PRODUCT_CATEGORIES } from "@/lib/data/dummy-data";
+import { CgMenuLeft } from "react-icons/cg";
 
 const PrimaryNavBar = () => {
   return (
     <div className={styles.primaryNavBar}>
-      <div className={styles.logo}>Adesh Technologies</div>
+      <div className={styles.primaryNavBarMenuIcon}>
+        <CgMenuLeft size={32} />
+      </div>
+      <div className={styles.logo}>Adesh</div>
       <div className={styles.primaryNavBarLinks}>
         {PRODUCT_CATEGORIES.map((category) => (
           <div className={styles.dropdown} key={category.id}>

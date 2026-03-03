@@ -1,9 +1,11 @@
 import styles from "./HeroSection.module.css";
 
+import BannersCarousel from "./BannersCarousel";
+
 const HeroSection = () => {
   return (
     <section className={styles.hero}>
-      <h1>Hero Section</h1>
+      <BannersCarousel />
     </section>
   );
 };

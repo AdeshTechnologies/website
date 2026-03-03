@@ -1,0 +1,53 @@
+.carouselWrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  height: 600px;
+
+  /* Flexbox magic */
+  display: flex;
+  align-items: center; /* Vertical center */
+  justify-content: flex-start; /* Horizontal left */
+}
+
+.carouselImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.carouselOverlayBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black overlay */
+}
+
+.carouselTextOverlay {
+  position: absolute;
+  width: 50%;
+  color: white;
+  padding: 0 10px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+}
+
+.carouselTextOverlay h1 {
+  font-size: 56px;
+  line-height: 1.25;
+}
+
+.carouselTextOverlay p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 640px) {
+  .carouselTextOverlay {
+    width: 100%;
+  }
+}

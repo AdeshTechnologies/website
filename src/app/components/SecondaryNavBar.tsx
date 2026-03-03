@@ -28,7 +28,7 @@ const SecondaryNavBar = () => {
           </span>
         </div>
       </div>
-      <div className={styles.navSecondaryContacts}>
+      <div className={styles.navSecondaryLinks}>
         <span className={styles.navSecondaryContactsItemText}>Help</span>
         <span>|</span>
         <span className={styles.navSecondaryContactsItemText}>

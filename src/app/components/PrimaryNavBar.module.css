@@ -4,12 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 8px;
+  padding: 30px 10px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 600;
+  color: darkblue;
 }
 
 .primaryNavBarLinks {
@@ -23,7 +24,7 @@
   right: 0;
   left: 0;
   width: 100%;
-  top: 102%;
+  top: 100%;
 
   background: white;
 
@@ -34,10 +35,11 @@
 
   z-index: 999; /* important */
 
-  padding: 20px 8px;
+  padding: 30px 8px;
   display: flex;
   align-items: start;
   justify-content: space-between;
+  border-top: 1px solid #e2e0e0;
 }
 
 .dropdownContentLinks {
@@ -54,12 +56,26 @@
 }
 
 .dropdown:hover .dropdownTrigger {
-  padding-bottom: 24px;
-  border-bottom: 2px solid darkblue;
+  padding-bottom: 33px;
+  border-bottom: 2px solid black;
 }
 
 .navPrimaryUserMenu {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .primaryNavBar {
+    padding: 20px 10px;
+  }
+
+  .primaryNavBarLinks {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
 }
