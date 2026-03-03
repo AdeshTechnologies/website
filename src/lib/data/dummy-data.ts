@@ -1,3 +1,31 @@
+export const BANNERS = [
+  {
+    id: 1,
+    imageUrl: "/banners/sample-iphone-banner-2.jpg",
+    title: "Lorem ipsum dolor sit amet consectetur",
+  },
+  {
+    id: 2,
+    imageUrl: "/banners/sample-iphone-banner-2.jpg",
+    title: "Lorem ipsum dolor sit amet consectetur",
+  },
+  {
+    id: 3,
+    imageUrl: "/banners/sample-iphone-banner-2.jpg",
+    title: "Lorem ipsum dolor sit amet consectetur",
+  },
+  {
+    id: 4,
+    imageUrl: "/banners/sample-iphone-banner-2.jpg",
+    title: "Lorem ipsum dolor sit amet consectetur",
+  },
+  {
+    id: 5,
+    imageUrl: "/banners/sample-iphone-banner-2.jpg",
+    title: "Lorem ipsum dolor sit amet consectetur",
+  },
+];
+
 export const PRODUCT_CATEGORIES = [
   {
     id: "laptops",
