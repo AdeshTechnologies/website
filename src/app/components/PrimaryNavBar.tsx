@@ -46,16 +46,16 @@ const PrimaryNavBar = () => {
       </div>
       <div className={styles.navPrimaryUserMenu}>
         <div>
-          <BiSearch size={24} />
+          <BiSearch size={26} />
         </div>
         <div>
-          <BiHeart size={24} />
+          <BiHeart size={26} />
         </div>
         <div>
-          <BiShoppingBag size={24} />
+          <BiShoppingBag size={26} />
         </div>
         <div>
-          <BiUser size={24} />
+          <BiUser size={26} />
         </div>
       </div>
     </div>
