@@ -18,7 +18,8 @@
   scrollbar-width: none;
 }
 
-.navSecondaryContactsItem {
+.navSecondaryContactsItem,
+.navSecondaryLinks {
   display: flex;
   align-items: center;
   justify-content: center;
