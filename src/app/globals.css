@@ -36,11 +36,11 @@ a {
 }
 
 button {
-  width: fit-content;
+  min-width: fit-content;
+  max-width: fit-content;
   padding: 16px 24px;
   border-radius: 16px;
   border: none;
-  margin-top: 10px;
 
   font-weight: 600;
 }
@@ -50,3 +50,40 @@ button {
     color-scheme: dark;
   }
 } */
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  background-color: transparent;
+  top: 100% !important; /* Remove default centering */
+  bottom: 0 !important; /* Position at bottom */
+  transform: translateY(0); /* Reset default transform */
+}
+
+.swiper-button-prev {
+  left: auto !important;
+  right: 40px !important; /* Position it to the right */
+}
+
+.swiper-button-next {
+  right: 0px !important; /* Keep next button further right */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 14px !important;
+  color: rgba(56, 32, 113);
+  border: 1px solid rgba(56, 32, 113, 0.5) !important; /* Add border */
+  border-radius: 6px; /* Make it rounded-md */
+  padding: 8px; /* Add spacing inside the border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  border-color: rgba(56, 32, 113, 1) !important; /* Add border */
+  transition: all;
+  transition-duration: 300ms;
+}

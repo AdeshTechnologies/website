@@ -1,0 +1,37 @@
+.hotDeals {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  padding: 40px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px 0;
+}
+
+.hotDealsNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 16px;
+}
+
+.hotDealsNavigation button {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  padding: 8px 24px;
+  border-radius: 20px;
+}
+
+.hotDealsProductsCarousel {
+  width: 100%;
+}
+
+@media screen and (max-width: 470px) {
+  .hotDealsNavigation {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+  }
+}

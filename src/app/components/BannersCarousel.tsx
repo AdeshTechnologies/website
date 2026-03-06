@@ -26,7 +26,6 @@ export default function BannersCarousel() {
         spaceBetween={0}
         effect={"creative"}
         grabCursor={true}
-        // 3
         creativeEffect={{
           prev: {
             shadow: true,
@@ -36,28 +35,6 @@ export default function BannersCarousel() {
             translate: ["100%", 0, 0],
           },
         }}
-        // creativeEffect={{
-        //   prev: {
-        //     shadow: true,
-        //     translate: ["-20%", 0, -1],
-        //   },
-        //   next: {
-        //     translate: ["100%", 0, 0],
-        //   },
-        // }}
-        // creativeEffect={{
-        //   prev: {
-        //     shadow: true,
-        //     origin: "left center",
-        //     translate: ["-5%", 0, -200],
-        //     rotate: [0, 100, 0],
-        //   },
-        //   next: {
-        //     origin: "right center",
-        //     translate: ["5%", 0, -200],
-        //     rotate: [0, -100, 0],
-        //   },
-        // }}
         centeredSlides={true}
         loop={true}
         pagination={{ clickable: true, dynamicBullets: true }}

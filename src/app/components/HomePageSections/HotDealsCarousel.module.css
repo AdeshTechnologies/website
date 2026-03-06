@@ -1,0 +1,85 @@
+.swiperWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  padding-top: 12px;
+}
+
+.swiperSlide {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.slideContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideContent img {
+  object-fit: contain;
+  object-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: white;
+}
+
+.slideContentText {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px 0;
+  background-color: #f4f3f3;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.slideContentText span {
+  font-weight: 600;
+}
+
+.slideContentText p {
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  line-clamp: 3; /* Official standard property */
+}
+
+.swiperCustomNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0 24px;
+  padding-top: 12px;
+}
+
+.swiperCustomNavigation a {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.swiperCustomNavigationBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+.swiperCustomNavigationBtn {
+  background-color: transparent;
+  border: 1px solid lightgray;
+  padding: 8px 16px;
+  border-radius: 20px;
+}

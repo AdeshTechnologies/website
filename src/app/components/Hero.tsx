@@ -1,8 +1,8 @@
-import styles from "./HeroSection.module.css";
+import styles from "./Hero.module.css";
 
 import BannersCarousel from "./BannersCarousel";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className={styles.hero}>
       <BannersCarousel />
@@ -10,4 +10,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;
