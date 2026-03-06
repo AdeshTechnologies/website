@@ -112,3 +112,46 @@ export const PRODUCT_CATEGORIES = [
     ],
   },
 ];
+
+export const DUMMY_PRODUCTS = [
+  {
+    id: 43,
+    imageUrl: "/products/sample-product-one.avif",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 44,
+    imageUrl: "/products/sample-product-three.jpg",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 45,
+    imageUrl: "/products/sample-product-one.avif",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 46,
+    imageUrl: "/products/sample-product-three.jpg",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 47,
+    imageUrl: "/products/sample-product-one.avif",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 48,
+    imageUrl: "/products/sample-product-three.jpg",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 49,
+    imageUrl: "/products/sample-product-one.avif",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+  {
+    id: 50,
+    imageUrl: "/products/sample-product-three.jpg",
+    name: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus adipisci, eos nam numquam assumenda et sequi magni exercitationem reprehenderit doloremque culpa ullam quasi error minima reiciendis tempore, dolores saepe.",
+  },
+];
